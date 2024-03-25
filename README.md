@@ -1,4 +1,3 @@
-Kantor, [24.03.2024 20:36]
 # Budget Allocation Algorithm
 
 ## Overview
@@ -54,14 +53,9 @@ The algorithmic complexity of the budget allocation algorithm is as follows:
 ## Potential Applications
 The budget allocation algorithm has potential applications in various domains, including government budgeting, resource allocation in organizations, and collaborative decision-making processes where multiple stakeholders with different preferences need to reach a fair and truthful allocation of resources.
 
-## Dependencies
-The script uses the typing module for type hinting. No additional dependencies are required.
-
-Kantor, [24.03.2024 20:36]
 ## Note
 The script assumes that the total budget is a positive float value and the citizen votes are provided as a list of lists of floats. Make sure to format the input data correctly before running the script.
 
 ## Conclusion
 This budget allocation algorithm provides a fair, truthful, and Pareto efficient solution for allocating resources based on the preferences of multiple parties. By combining generalized median voting with a linear increasing function and employing a binary search to satisfy the budget constraint, the algorithm offers a robust and efficient approach to budget allocation problems.
 
-The script serves as a clear and concise implementation of the algorithm, making it accessible and adaptable for various use cases. It contributes to the field of economic algorithms and provides a valuable tool for fair and efficient resource allocation.
